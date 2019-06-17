@@ -11,16 +11,25 @@
 header #logo img{
     max-width: 100%;
     height: auto;
-    width:583px;
-    padding-bottom:0px;
+  
 }
+
 .desktop{
     margin-top: 15px;
     margin-bottom:15px;
 }
-.phone{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.hide-navicon-button{
+	background:transparent;
+	border:0;
+	position:absolute;
 }
-
+.navicon-container{
+	position:absolute;
+	top:20px;
+	right:50px;
+	cursor: pointer;
+  justify-items: right;
+  height:40px;
+  width:35px;
+}
 
