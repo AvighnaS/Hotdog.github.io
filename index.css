@@ -1,0 +1,22 @@
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    width: 100%;
+    height:100%;
+    opacity:1;
+    visibility: inherit;
+    Z-index: 20;
+}
+header #logo img{
+    max-width: 100%;
+    height: auto;
+}
+.desktop{
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+.phone{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
