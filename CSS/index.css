@@ -11,6 +11,8 @@
 header #logo img{
     max-width: 100%;
     height: auto;
+    width:583px;
+    padding-bottom:0px;
 }
 .desktop{
     margin-top: 15px;
@@ -20,3 +22,5 @@ header #logo img{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
