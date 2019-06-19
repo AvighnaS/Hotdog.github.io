@@ -44,14 +44,14 @@ body{
 .four{
     grid-column:4;
 }
-.navlinks{
+.product{
     font-family: 'ubuntu', sans-serif;
     font-size:1.2em;
     text-transform: uppercase;
     text-decoration: none;
     color:white;
 }
-.navlinks:hover{
+.product:hover{
     color:white;
     border-left:1px solid white;
     border-right:1px solid white;
@@ -63,54 +63,59 @@ footer {
     text-align: center;
     color: white; 
   }
-  h1{
-    text-align: center;
-    color:coral;
-    padding-top:5%;
-  }
-  h2{
-    text-align: center;
-    color:coral;
-  }
   .corner{
-      text-align:left;
-      color:coral;
-      padding-bottom:1%;
-      padding-right:2%;
-  }
-  .logo{
-    width:8%;
-    height:8%;
-    color:white;
-  }
-  .flex-container{
+    text-align:left;
+    color:coral;
+    padding-bottom:1%;
+    padding-right:2%;
+}
+.logo{
+  width:8%;
+  height:8%;
+  color:white;
+}
+.flex-container{
     display:flex;
     flex-direction:row;
     justify-content: center;
     flex-flow:row wrap;
     border-bottom:4px solid white;
 }
-.holder{
-    width:900px;
-    margin:0 auto;
+.hotdog-container{
+    max-width:1170;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em;
 }
-.box-set__hotdog{
-    width:100px;
-    padding:0 20px 0 0;
-
+section{
+    background:white;
+    width:80%;
+    padding:1em;
+    overflow:auto;
+    min-width:30em;
+    max-width: 50em;
+    margin:auto;
 }
-
-.box-set__header{
-    float:left;
-    color:#fff;
-    padding:12px 0 0;
+h2{
+    font-size:1em;
+    margin-bottom:0.5em;
+    font-family: sans-serif;
 }
-.box-set__header h1{
-     font-size:28px;
+.hodog, .hamburger{
+    font-size:18px;
+    line-height: 1.3em;
+    vertical-align: top; 
+    margin-bottom: 1em;
+    border-radius:0.5em;
+    padding:1em;
+    box-sizing:border-box;
+    width:45%;
 }
-
-h3{
-    color:coral;
-    text-align:center;
-
+.hotdog{
+    background: white;
+    display:inline-block;
+}
+.hamburger{
+    background:white;
+    float:left
 }
